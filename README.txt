@@ -1,3 +1,12 @@
+Student Database:
+This project organises data of each Student studying in IIT Delhi, such that it can be be accessed based on queries related to department, hostel, courses etc.
+All the departments, courses and hostels are structured in three separate LinkedLists. These customized LinkedLists organise data such that eah entry of the list is associated to a list of students who are related to the larger entity.
+	For example : All the departments are stored in a linkedlist such that its entry is an object which stores list of the students in that respective department along with their details. 
+This project facilitates few queries such that we get access to the required info in a structured manner.
+	For example : SHARE <entry_no> <entity_name> query prints all the students in lexicographical order, whose given entity (hostel/department/course) is same as that of given student. 
+
+
+
 Extra Classes Defined Other than given interfaces:
 LLIterator:
 It is an iterator used in LinkedList to iterate entities.
